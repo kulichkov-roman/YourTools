@@ -13,6 +13,6 @@
         "installer-name": "local"
     },
     "require-dev": {
-        "composer/composer": "1.0.*@dev"
+        "composer/installers": ">=1.0.22 <2.0"
     }
 }
