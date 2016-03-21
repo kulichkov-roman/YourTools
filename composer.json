@@ -8,6 +8,7 @@
             "email": "kulichkov.roman@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require-dev": {
         "composer/composer": "1.0.*@dev"
     }
