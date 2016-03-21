@@ -1,0 +1,15 @@
+{
+    "name": "kulichkov.pro/your-tools",
+    "type": "bitrix-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kulichkov Roman",
+            "email": "kulichkov.roman@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
