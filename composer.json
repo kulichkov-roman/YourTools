@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "extra": {
-        "installer-name": "local"
+        "installer-name": "your-tools"
     },
     "require-dev": {
         "composer/installers": ">=1.0.22 <2.0"
