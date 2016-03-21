@@ -9,6 +9,11 @@
         }
     ],
     "minimum-stability": "dev",
+    "extra": {
+        "installer-paths": {
+            "/local/custom/path/{$name}/": ["type:bitrix-theme"]
+        }
+    },
     "require-dev": {
         "composer/composer": "1.0.*@dev"
     }
