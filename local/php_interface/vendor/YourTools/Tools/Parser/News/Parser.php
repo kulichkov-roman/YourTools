@@ -13,6 +13,8 @@ use MLTK\Helper;
  * Class Parser
  *
  * @package Your\Tools\Parser\News
+ *
+ * @author Roman Kulichkov <roman@kulichkov.pro>
  */
 class Parser implements SingletonInterface
 {
