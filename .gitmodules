@@ -1,0 +1,3 @@
+[submodule "php_interface/vendor/YourTools"]
+	path = php_interface/vendor/YourTools
+	url = https://github.com/kulichkov-roman/YourTools.git
