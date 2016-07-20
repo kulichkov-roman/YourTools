@@ -39,7 +39,7 @@ class Importer implements SingletonInterface
     {
         $this->dateHelper   = new \KKB\Helper\DateHelper;
         $this->stringHelper = new \KKB\Helper\StringHelper;
-        $this->csvManager   = new \CCSVData('R', true);
+        $this->csvManager   = new \CCSVData('R', false);
     }
 
     private function __clone()
@@ -58,6 +58,7 @@ class Importer implements SingletonInterface
 
     public function readToArray()
     {
+        $this->arCsv = array();
         while($arItem = $this->csvManager->Fetch())
         {
             $this->arCsv[] = $arItem;
