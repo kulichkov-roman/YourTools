@@ -1,3 +1,0 @@
-[submodule "bitrix/php_interface/vendor/YourTools"]
-	path = bitrix/php_interface/vendor/YourTools
-	url = https://github.com/kulichkov-roman/YourTools.git
