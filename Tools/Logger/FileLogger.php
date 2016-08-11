@@ -1,9 +1,9 @@
 <?php
 
-namespace Your\Tools\Logger;
+namespace YT\Tools\Logger;
 
-use Your\Common\Exception;
-use Your\Tools\LoggerInterface;
+use YT\Common\Exception;
+use YT\Tools\LoggerInterface;
 
 /**
  * Стандартный логгер, пишущий в файл
@@ -12,7 +12,7 @@ use Your\Tools\LoggerInterface;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Tools\Logger
+ * @package YT\Tools\Logger
  */
 class FileLogger implements LoggerInterface
 {

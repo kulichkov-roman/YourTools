@@ -1,8 +1,8 @@
 <?php
 
-namespace Your\Exception\Data\Migration;
+namespace YT\Exception\Data\Migration;
 
-use Your\Common\Exception;
+use YT\Common\Exception;
 
 /**
  * Исключение процесса выполнения миграции
@@ -11,7 +11,7 @@ use Your\Common\Exception;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Exception\Data\Migration
+ * @package YT\Exception\Data\Migration
  */
 class MigrationException extends Exception
 {

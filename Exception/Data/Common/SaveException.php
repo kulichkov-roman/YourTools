@@ -1,8 +1,8 @@
 <?php
 
-namespace Your\Exception\Data\Common;
+namespace YT\Exception\Data\Common;
 
-use Your\Common\Exception;
+use YT\Common\Exception;
 
 /**
  * Исключение процесса сохранения объекта
@@ -11,7 +11,7 @@ use Your\Common\Exception;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Exception\Data\Common
+ * @package YT\Exception\Data\Common
  */
 class SaveException extends Exception
 {

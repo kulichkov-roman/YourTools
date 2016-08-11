@@ -1,15 +1,15 @@
 <?php
 
-namespace Your;
+namespace YT;
 
 /**
- * Автозагрузчик для пространства Your
+ * Автозагрузчик для пространства YT
  *
  * Class AutoLoader
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your
+ * @package YT
  */
 class AutoLoader
 {
@@ -34,7 +34,7 @@ class AutoLoader
 	 */
 	protected static function generateFilePath($path, $file)
 	{
-		return str_replace('/Your/', '/', sprintf('%s/%s.php', $path, str_replace('\\', '/', $file)));
+		return str_replace('/YT/', '/', sprintf('%s/%s.php', $path, str_replace('\\', '/', $file)));
 	}
 
 	/**

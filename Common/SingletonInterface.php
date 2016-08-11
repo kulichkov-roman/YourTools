@@ -1,13 +1,13 @@
 <?php
 
-namespace Your\Common;
+namespace YT\Common;
 
 /**
  * Интерфейс паттерна «Одиночка»
  *
  * Interface SingletonInterface
  *
- * @package Your\Common
+ * @package YT\Common
  */
 interface SingletonInterface
 {

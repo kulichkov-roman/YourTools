@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Common;
+namespace YT\Common;
 
 /**
  * Базовый класс исключений

@@ -1,13 +1,13 @@
 <?php
 
-namespace Your\Environment\Configuration;
+namespace YT\Environment\Configuration;
 
 /**
  * Интерфейс конфигурации
  *
  * Interface ConfigurationInterface
  *
- * @package Your\Environment
+ * @package YT\Environment
  */
 interface ConfigurationInterface
 {

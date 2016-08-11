@@ -1,8 +1,8 @@
 <?php
 
-namespace Your\Data\Common\Import;
+namespace YT\Data\Common\Import;
 
-use Your\Tools\LoggerInterface;
+use YT\Tools\LoggerInterface;
 
 /**
  * Абстрактный импортер сущностей
@@ -11,7 +11,7 @@ use Your\Tools\LoggerInterface;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Data\Common\Import
+ * @package YT\Data\Common\Import
  */
 abstract class AbstractImporter implements ImporterInterface
 {

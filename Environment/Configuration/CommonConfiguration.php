@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Environment\Configuration;
+namespace YT\Environment\Configuration;
 
 /**
  * Класс общей конфигурации для всех сайтов
@@ -9,7 +9,7 @@ namespace Your\Environment\Configuration;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Environment
+ * @package YT\Environment
  */
 class CommonConfiguration implements ConfigurationInterface
 {

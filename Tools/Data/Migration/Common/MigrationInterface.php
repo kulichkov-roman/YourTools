@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Tools\Data\Migration\Common;
+namespace YT\Tools\Data\Migration\Common;
 
 /**
  * Интерфейс миграций
@@ -9,7 +9,7 @@ namespace Your\Tools\Data\Migration\Common;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Tools\Data\Migration\Common
+ * @package YT\Tools\Data\Migration\Common
  */
 interface MigrationInterface
 {

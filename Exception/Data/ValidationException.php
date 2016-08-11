@@ -1,9 +1,9 @@
 <?php
 
-namespace Your\Exception\Data;
+namespace YT\Exception\Data;
 
-use Your\Common\Exception;
-use Your\Data\Common\Model;
+use YT\Common\Exception;
+use YT\Data\Common\Model;
 
 /**
  * Класс исключений валидации моделей
@@ -12,7 +12,7 @@ use Your\Data\Common\Model;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Exception\Data
+ * @package YT\Exception\Data
  */
 class ValidationException extends Exception
 {

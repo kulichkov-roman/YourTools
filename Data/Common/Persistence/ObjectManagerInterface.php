@@ -1,10 +1,10 @@
 <?php
 
-namespace Your\Data\Common\Persistence;
+namespace YT\Data\Common\Persistence;
 
-use Your\Data\Common\Model;
-use Your\Exception\Data\Common\DeleteException;
-use Your\Exception\Data\Common\SaveException;
+use YT\Data\Common\Model;
+use YT\Exception\Data\Common\DeleteException;
+use YT\Exception\Data\Common\SaveException;
 
 /**
  * Интерфейс менеджера объектов хранилища
@@ -13,7 +13,7 @@ use Your\Exception\Data\Common\SaveException;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Data\Common\Persistence
+ * @package YT\Data\Common\Persistence
  */
 interface ObjectManagerInterface
 {

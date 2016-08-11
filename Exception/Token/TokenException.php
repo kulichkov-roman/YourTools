@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Exception\Token;
+namespace YT\Exception\Token;
 
 /**
  * Исключения, которые могут быть выброшены в случае неудачного выполнения TokenAction
@@ -9,7 +9,7 @@ namespace Your\Exception\Token;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Exception\Token
+ * @package YT\Exception\Token
  */
 abstract class TokenException extends \RuntimeException
 {

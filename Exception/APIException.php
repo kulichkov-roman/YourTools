@@ -1,8 +1,8 @@
 <?php
 
-namespace Your\Exception;
+namespace YT\Exception;
 
-use Your\Common\Exception;
+use YT\Common\Exception;
 
 /**
  * Базовый класс исключений для API
@@ -11,7 +11,7 @@ use Your\Common\Exception;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Exception
+ * @package YT\Exception
  */
 class APIException extends Exception
 {

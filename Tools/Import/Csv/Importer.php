@@ -1,18 +1,18 @@
 <?
-namespace Your\Tools\Import\CSV;
+namespace YT\Tools\Import\CSV;
 
-use Your\Common\SingletonInterface;
-use Your\Exception\Data\Import\CSV\ImporterException;
-use Your\Tools\Logger\FileLogger;
+use YT\Common\SingletonInterface;
+use YT\Exception\Data\Import\CSV\ImporterException;
+use YT\Tools\Logger\FileLogger;
 
-use KKB\Helper;
+use YT\Helper;
 
 /**
  * Импорт СSV
  *
  * Class Importer
  *
- * @package Your\Tools\Import\CSV
+ * @package YT\Tools\Import\CSV
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  */

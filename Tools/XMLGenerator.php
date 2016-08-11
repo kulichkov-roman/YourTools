@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Tools;
+namespace YT\Tools;
 
 /**
  * Генератор XML-кода
@@ -9,7 +9,7 @@ namespace Your\Tools;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Tools
+ * @package YT\Tools
  */
 class XMLGenerator
 {

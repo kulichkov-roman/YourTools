@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Data\Common\Persistence;
+namespace YT\Data\Common\Persistence;
 
 /**
  * Интерфейс репозитория объектов
@@ -9,7 +9,7 @@ namespace Your\Data\Common\Persistence;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Data\Common\Persistence
+ * @package YT\Data\Common\Persistence
  */
 interface ObjectRepositoryInterface
 {

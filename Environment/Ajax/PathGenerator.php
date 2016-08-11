@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Environment\Ajax;
+namespace YT\Environment\Ajax;
 
 /**
  * Генератор путей для обработчиков AJAX-запросов
@@ -9,7 +9,7 @@ namespace Your\Environment\Ajax;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Environment\Ajax
+ * @package YT\Environment\Ajax
  */
 class PathGenerator
 {

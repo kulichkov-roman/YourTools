@@ -1,8 +1,8 @@
 <?php
 
-namespace Your\Exception\Data\Import\CSV;
+namespace YT\Exception\Data\Import\CSV;
 
-use Your\Common\Exception;
+use YT\Common\Exception;
 
 /**
  * Исключение процесса выполнения импорта
@@ -11,7 +11,7 @@ use Your\Common\Exception;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Exception\Data\Import\CSV
+ * @package YT\Exception\Data\Import\CSV
  */
 class ImporterException extends Exception
 {

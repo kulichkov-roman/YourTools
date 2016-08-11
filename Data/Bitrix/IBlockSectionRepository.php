@@ -1,8 +1,8 @@
 <?php
 
-namespace Your\Data\Bitrix;
+namespace YT\Data\Bitrix;
 
-use Your\Data\Common\Persistence\ObjectRepositoryInterface;
+use YT\Data\Common\Persistence\ObjectRepositoryInterface;
 
 /**
  * Репозиторий, работающий с разделами внутри инфоблоков
@@ -11,7 +11,7 @@ use Your\Data\Common\Persistence\ObjectRepositoryInterface;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Data\Bitrix
+ * @package YT\Data\Bitrix
  */
 class IBlockSectionRepository implements ObjectRepositoryInterface
 {

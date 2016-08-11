@@ -1,13 +1,13 @@
 <?php
 
-namespace Your\Tools\Mail;
+namespace YT\Tools\Mail;
 
 /**
  * Простая обертка для отправки писем через функцию mail
  *
  * Class SimpleMailer
  *
- * @package Your\Tools\Mail
+ * @package YT\Tools\Mail
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  */

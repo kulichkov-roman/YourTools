@@ -1,8 +1,8 @@
 <?php
 
-namespace Your\Tools\Logger;
+namespace YT\Tools\Logger;
 
-use Your\Tools\LoggerInterface;
+use YT\Tools\LoggerInterface;
 
 /**
  * Простой логгер, выводящий сообщения на стандартный вывод
@@ -11,7 +11,7 @@ use Your\Tools\LoggerInterface;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Tools\Logger
+ * @package YT\Tools\Logger
  */
 class EchoLogger implements LoggerInterface
 {

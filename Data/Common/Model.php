@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Data\Common;
+namespace YT\Data\Common;
 
 /**
  * Абстрактный класс модели
@@ -9,7 +9,7 @@ namespace Your\Data\Common;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Data
+ * @package YT\Data
  */
 abstract class Model
 {

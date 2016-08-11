@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Tools\Data\Parsing\Common;
+namespace YT\Tools\Data\Parsing\Common;
 
 /**
  * Интерфейс парсинга
@@ -9,7 +9,7 @@ namespace Your\Tools\Data\Parsing\Common;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Tools\Data\Parsing\Common
+ * @package YT\Tools\Data\Parsing\Common
  */
 interface ParsingInterface
 {

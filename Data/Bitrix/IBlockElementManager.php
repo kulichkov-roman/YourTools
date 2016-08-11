@@ -1,13 +1,13 @@
 <?php
 
-namespace Your\Data\Bitrix;
+namespace YT\Data\Bitrix;
 
-use Your\Common\SingletonInterface;
-use Your\Data\Common\Model;
-use Your\Data\Common\Persistence\ObjectManagerInterface;
-use Your\Exception\Common\NotImplementedException;
-use Your\Exception\Data\Common\DeleteException;
-use Your\Exception\Data\Common\SaveException;
+use YT\Common\SingletonInterface;
+use YT\Data\Common\Model;
+use YT\Data\Common\Persistence\ObjectManagerInterface;
+use YT\Exception\Common\NotImplementedException;
+use YT\Exception\Data\Common\DeleteException;
+use YT\Exception\Data\Common\SaveException;
 
 /**
  * Менеджер элементов инфоблоков
@@ -16,7 +16,7 @@ use Your\Exception\Data\Common\SaveException;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Data\Bitrix
+ * @package YT\Data\Bitrix
  */
 final class IBlockElementManager implements ObjectManagerInterface, SingletonInterface
 {

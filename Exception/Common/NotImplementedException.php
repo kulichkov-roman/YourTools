@@ -1,15 +1,15 @@
 <?php
 
-namespace Your\Exception\Common;
+namespace YT\Exception\Common;
 
-use Your\Common\Exception;
+use YT\Common\Exception;
 
 /**
  * Class NotImplementedException
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Exception\Common
+ * @package YT\Exception\Common
  */
 class NotImplementedException extends Exception
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Your\Exception\Data\Parsing;
+namespace YT\Exception\Data\Parsing;
 
-use Your\Common\Exception;
+use YT\Common\Exception;
 
 /**
  * Исключение процесса выполнения парсинга
@@ -11,7 +11,7 @@ use Your\Common\Exception;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Exception\Data\Parsing
+ * @package YT\Exception\Data\Parsing
  */
 class ParsingException extends Exception
 {

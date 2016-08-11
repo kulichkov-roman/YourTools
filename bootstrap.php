@@ -4,4 +4,4 @@
  */
 require_once 'AutoLoader.php';
 
-\spl_autoload_register('\Your\AutoLoader::autoLoad');
+\spl_autoload_register('\YT\AutoLoader::autoLoad');

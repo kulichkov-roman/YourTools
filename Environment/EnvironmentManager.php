@@ -1,10 +1,10 @@
 <?php
 
-namespace Your\Environment;
+namespace YT\Environment;
 
-use Your\Common\SingletonInterface;
-use Your\Environment\Configuration\CommonConfiguration;
-use Your\Environment\Configuration\ConfigurationInterface;
+use YT\Common\SingletonInterface;
+use YT\Environment\Configuration\CommonConfiguration;
+use YT\Environment\Configuration\ConfigurationInterface;
 
 /**
  * Менеджер переменных окружения
@@ -13,7 +13,7 @@ use Your\Environment\Configuration\ConfigurationInterface;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Environment
+ * @package YT\Environment
  */
 final class EnvironmentManager implements SingletonInterface
 {

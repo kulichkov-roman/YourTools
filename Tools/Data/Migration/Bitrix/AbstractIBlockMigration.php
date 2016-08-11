@@ -1,10 +1,10 @@
 <?php
 
-namespace Your\Tools\Data\Migration\Bitrix;
+namespace YT\Tools\Data\Migration\Bitrix;
 
 
-use Your\Exception\Data\Migration\MigrationException;
-use Your\Tools\Data\Migration\Common\MigrationInterface;
+use YT\Exception\Data\Migration\MigrationException;
+use YT\Tools\Data\Migration\Common\MigrationInterface;
 
 /**
  * Абстрактный класс миграции инфоблока
@@ -13,7 +13,7 @@ use Your\Tools\Data\Migration\Common\MigrationInterface;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Tools\Data\Migration\Bitrix
+ * @package YT\Tools\Data\Migration\Bitrix
  */
 abstract class AbstractIBlockMigration implements MigrationInterface
 {

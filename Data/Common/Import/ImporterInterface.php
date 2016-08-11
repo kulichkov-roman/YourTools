@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Data\Common\Import;
+namespace YT\Data\Common\Import;
 
 /**
  * Интерфейс для различных импортеров сущностей
@@ -9,7 +9,7 @@ namespace Your\Data\Common\Import;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Data\Common\Import
+ * @package YT\Data\Common\Import
  */
 interface ImporterInterface
 {

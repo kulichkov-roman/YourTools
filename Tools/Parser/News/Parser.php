@@ -1,18 +1,18 @@
 <?
-namespace Your\Tools\Parser\News;
+namespace YT\Tools\Parser\News;
 
-use Your\Common\SingletonInterface;
-use Your\Exception\Data\Parsing\ParsingException;
-use Your\Tools\Logger\FileLogger;
+use YT\Common\SingletonInterface;
+use YT\Exception\Data\Parsing\ParsingException;
+use YT\Tools\Logger\FileLogger;
 
-use MLTK\Helper;
+use YT\Helper;
 
 /**
  * Импорт новостей
  *
  * Class Parser
  *
- * @package Your\Tools\Parser\News
+ * @package YT\Tools\Parser\News
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  */

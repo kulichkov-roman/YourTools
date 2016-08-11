@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Environment\Configuration;
+namespace YT\Environment\Configuration;
 
 /**
  * Конфигурация для конкретного сайта
@@ -9,7 +9,7 @@ namespace Your\Environment\Configuration;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Environment
+ * @package YT\Environment
  */
 class SiteConfiguration extends CommonConfiguration
 {

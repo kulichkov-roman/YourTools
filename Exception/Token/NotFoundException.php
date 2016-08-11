@@ -1,6 +1,6 @@
 <?php
 
-namespace Your\Exception\Token;
+namespace YT\Exception\Token;
 
 /**
  * Токен не найден в хранилище
@@ -9,7 +9,7 @@ namespace Your\Exception\Token;
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
- * @package Your\Exception\Token
+ * @package YT\Exception\Token
  */
 class NotFoundException extends TokenException
 {
