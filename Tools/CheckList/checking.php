@@ -24,7 +24,7 @@ class CheckList implements CheckListInterface
      */
     public function up()
     {
-        include_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/classes/general/checklist.php");
+        include_once($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/classes/general/checklist.php');
 
         $checklist = new \CCheckList(true);
 
@@ -32,8 +32,8 @@ class CheckList implements CheckListInterface
         foreach($arPoints as $pointId => $arPoint){
             $arPointFields = array();
 
-            $arPointFields["COMMENTS"]["PERFOMER"] = $this->comment;
-            $arPointFields["STATUS"] = $this->status;
+            $arPointFields['COMMENTS']['PERFOMER'] = $this->comment;
+            $arPointFields['STATUS'] = $this->status;
 
             $checklist->PointUpdate($pointId, $arPointFields);
         }
