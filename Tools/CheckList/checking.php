@@ -39,6 +39,6 @@ class CheckList implements CheckListInterface
         }
         $checklist->Save();
 
-        echo sprintf('%s' . PHP_EOL, $this->message);
+        return sprintf('%s' . PHP_EOL, $this->message);
     }
 }
