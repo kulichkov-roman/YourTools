@@ -16,5 +16,5 @@ interface CheckListInterface
     /**
      * Пройти все тесты
      */
-    public function up();
+    public function check();
 }

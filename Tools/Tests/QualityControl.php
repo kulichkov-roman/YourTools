@@ -1,28 +1,28 @@
 <?php
 
-namespace YT\Tools\CheckList;
+namespace YT\Tools\Tests;
 
 use YT\Tools\CheckListInterface;
 
 /**
  * Пройти все чек листы перед сдачей проекта
  *
- * Class CheckList
+ * Class QualityControl
  *
  * @author Roman Kulichkov <roman@kulichkov.pro>
  *
  * @package YT\Tools\CheckList
  */
-class CheckList implements CheckListInterface
+class QualityControl implements CheckListInterface
 {
-    private $status = 'A';
+    private $status  = 'A';
     private $comment = 'Выполнено';
     private $message = 'Все тесты пройдены';
 
     /**
      * @param $message
      */
-    public function up()
+    public function check()
     {
         include_once($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/classes/general/checklist.php');
 
