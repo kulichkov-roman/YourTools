@@ -24,7 +24,9 @@ class QualityControl implements CheckListInterface
      */
     public function check()
     {
-        include_once($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/classes/general/checklist.php');
+        \Bitrix\Main\Loader::registerAutoLoadClasses(null, array(
+            'CCheckList' => '/bitrix/modules/main/classes/general/checklist.php',
+        ));
 
         $checklist = new \CCheckList(true);
 
